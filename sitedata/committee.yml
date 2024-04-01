@@ -19,14 +19,6 @@ local_organizers:
     aff: Recruit Co., Ltd. / Megagon Labs, Tokyo
     im: /static/images/ayana_niwa.jpg
   - role: Local Organizer
-    name: Hiroya Takamura
-    aff: AIST
-    im: /static/images/hiroya_takamura.jpg
-  - role: Local Organizer
-    name: Ichiro Kobayashi
-    aff: Ochanomizu University
-    im: /static/images/ichiro_kobayashi.jpg
-  - role: Local Organizer
     name: Takashi Yamamura
     aff: Works Applications
     im: /static/images/takashi_yamamura.jpg
@@ -42,3 +34,11 @@ local_organizers:
     name: Toshiki Kawamoto
     aff: Amazon
     im: /static/images/toshiki_kawamoto.jpg
+  - role: Local Organizer
+    name: Hiroya Takamura
+    aff: AIST
+    im: /static/images/hiroya_takamura.jpg
+  - role: Local Organizer
+    name: Ichiro Kobayashi
+    aff: Ochanomizu University
+    im: /static/images/ichiro_kobayashi.jpg
