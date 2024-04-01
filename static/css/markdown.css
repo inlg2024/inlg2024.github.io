@@ -1,3 +1,9 @@
+.markdown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .markdown h1:not(:first-child),
 .markdown h2:not(:first-child),
 .markdown h3:not(:first-child),
@@ -18,4 +24,23 @@
 
 .markdown p {
   margin: 0;
+}
+
+.markdown table {
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+.markdown thead {
+  border: none;
+}
+
+.markdown tr {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, max-content));
+  gap: 2rem;
+}
+
+.markdown td, .markdown th {
+  padding: 0.4rem 0rem;
 }
