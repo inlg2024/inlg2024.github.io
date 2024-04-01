@@ -7,7 +7,8 @@ import os
 
 import markdown as md
 import yaml
-from flask import Flask, jsonify, redirect, render_template, send_from_directory
+from flask import (Flask, jsonify, redirect, render_template,
+                   send_from_directory)
 from flask_frozen import Freezer
 from markupsafe import Markup
 
@@ -78,6 +79,12 @@ def calls():
     for call in data["calls"]:
         call["bodytext"] = open(call["body"]).read()
     return render_template("calls.html", **data)
+
+@app.route("/organizers.html")
+def organizers():
+    data = _data()
+    data["committee"] = site_data["committee"]["committee"]
+    return render_template("organizers.html", **data)
 
 
 # ITEM PAGES

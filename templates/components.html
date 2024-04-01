@@ -192,7 +192,7 @@ sessiongroup
                     </h6>
                 </div>
                 <center>
-                    <img src="{{org.im}}" class="rounded" style="height: 150px;" />
+                    <img src="{{org.im}}" class="rounded" style="height: 200px;" />
                 </center>
             </div>
         </div>
@@ -250,13 +250,13 @@ sessiongroup
     <div class="col-12" id="accordionExample">
         <div class="card">
             <div class="card-header" id="heading{{rowloop}}-{{loop.index}}">
-                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}" role="button"
-                    aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
+                <a class="" href="#" data-toggle="collapse" data-target="#collapse{{rowloop}}-{{loop.index}}"
+                    role="button" aria-expanded="true" aria-controls="collapse{{rowloop}}-{{loop.index}}">
                     {{ call.title }}
                 </a>, deadline {{ call.deadline }}
             </div>
-            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3" aria-labelledby="heading{{rowloop}}-{{loop.index}}"
-                data-parent="#accordionExample">
+            <div id="collapse{{rowloop}}-{{loop.index}}" class="collapse mt-3"
+                aria-labelledby="heading{{rowloop}}-{{loop.index}}" data-parent="#accordionExample">
                 <div class="card-body markdown">
                     {{ call.bodytext | markdown }}
                 </div>
