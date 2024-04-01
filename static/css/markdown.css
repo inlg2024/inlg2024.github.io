@@ -1,9 +1,3 @@
-.markdown {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 .markdown h1:not(:first-child),
 .markdown h2:not(:first-child),
 .markdown h3:not(:first-child),
@@ -28,7 +22,6 @@
 
 .markdown table {
   border-spacing: 0;
-  box-sizing: border-box;
 }
 
 .markdown thead {
