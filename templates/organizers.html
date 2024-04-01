@@ -32,6 +32,20 @@
 
 <!-- Organizers -->
 {{ components.section("Organizers") }}
-{{ components.organizergroup(committee) }}
+<h3>PC Chairs</h3>
+<div class="row">
+  {% for person in pc_chairs %}
+  {{ components.display_person(person) }}
+  {% endfor %}
+</div>
+
+<div style="margin-top: 20px;"></div>
+
+<h3>Local Organizers</h3>
+<div class="row">
+  {% for person in local_organizers %}
+  {{ components.display_person(person) }}
+  {% endfor %}
+</div>
 
 {% endblock %}

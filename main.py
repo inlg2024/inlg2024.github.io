@@ -83,7 +83,8 @@ def calls():
 @app.route("/organizers.html")
 def organizers():
     data = _data()
-    data["committee"] = site_data["committee"]["committee"]
+    data["pc_chairs"] = site_data["committee"]["pc_chairs"]
+    data["local_organizers"] = site_data["committee"]["local_organizers"]
     return render_template("organizers.html", **data)
 
 

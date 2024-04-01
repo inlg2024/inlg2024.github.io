@@ -1,4 +1,4 @@
-committee:
+pc_chairs:
   - role: Program Chair
     name: Nguyen Le Minh
     aff: Japan Advanced Institute of Science and Technology
@@ -9,10 +9,15 @@ committee:
     name: Saad Mahamood
     aff: Trivago
     im: /static/images/saad_mahamood.jpg
+local_organizers:
   - role: Local Organizer Chair
     name: Tatsuya Ishigaki
     aff: AIST
     im: /static/images/tatsuya_ishigaki.jpg
+  - role: Sponsor Chair, Local Organizer
+    name: Ayana Niwa
+    aff: Recruit Co., Ltd. / Megagon Labs, Tokyo
+    im: /static/images/ayana_niwa.jpg
   - role: Local Organizer
     name: Hiroya Takamura
     aff: AIST
@@ -25,10 +30,6 @@ committee:
     name: Takashi Yamamura
     aff: Works Applications
     im: /static/images/takashi_yamamura.jpg
-  - role: Local Organizer
-    name: Ayana Niwa
-    aff: Recruit Co., Ltd. / Megagon Labs, Tokyo
-    im: /static/images/ayana_niwa.jpg
   - role: Local Organizer
     name: Shun Tanaka
     aff: JX PRESS Corporation
