@@ -175,12 +175,12 @@ sessiongroup
 
 {% macro display_person(person) %}
 <div class="col-md-4 col-sm-6 p-2">
-    <div class="border h-100 w-100 p-3" style="display: flex; flex-direction: column; align-items: center; justify-items: center;">
-        <div style="font-weight: 700; font-size: large;">{{person.name}}</div>
-        <div style="font-size: small; font-style: italic; margin-top: 0.3rem; text-align: center;">{{person.role}}</div>
-        <div style="font-size: small; text-align: center; margin-top: 0.3rem; font-weight: 600;">{{person.aff}}</div>
+    <div class="border h-100 w-100 p-4" style="display: flex; flex-direction: column; align-items: center; justify-items: center;">
+        <div style="font-weight: 600;">{{person.name}}</div>
+        <div style="font-size: small; font-style: italic; margin-top: 0.4rem; text-align: center;">{{person.role}}</div>
+        <div style="font-size: small; text-align: center;">{{person.aff}}</div>
         {% if person.im %}
-        <div style="margin-top: 0.5rem;"></div>
+        <div style="margin-top: 0.8rem;"></div>
         <img src="{{person.im}}" class="rounded" style="margin-top: auto; height: 12rem; width: 10rem; object-fit: cover;" />
         {% endif %}
     </div>
