@@ -41,4 +41,4 @@ For this event, we offer three sponsor packages:
 
 ---
 
-To explore sponsorship opportunities, please contact us directly at inlg2024.sponsorship@gmail.com.
+To explore sponsorship opportunities, please contact us directly at **<a href="mailto:inlg2024.sponsorship@gmail.com">inlg2024.sponsorship@gmail.com</a>**.
