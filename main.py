@@ -7,8 +7,7 @@ import os
 
 import markdown as md
 import yaml
-from flask import (Flask, jsonify, redirect, render_template,
-                   send_from_directory)
+from flask import Flask, jsonify, render_template, send_from_directory
 from flask_frozen import Freezer
 from markupsafe import Markup
 
