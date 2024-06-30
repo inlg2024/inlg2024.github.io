@@ -119,6 +119,15 @@ def sponsor_ja():
     return render_template("single_md.html", **data)
 
 
+@app.route("/tutorials.html")
+def tutorials():
+    data = _data()
+    data["tutorials"] = site_data["tutorials"]["tutorials"]
+    for tutorial in data["tutorials"]:
+        tutorial["bodytext"] = open(tutorial["body"]).read()
+    return render_template("tutorials.html", **data)
+
+
 # ITEM PAGES
 @app.route("/static/<path:path>")
 def send_static(path):
