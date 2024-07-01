@@ -13,7 +13,7 @@ The registration site will open on July 15.
         <td></td>
         <td>JPY</td>
         <td>USD</td>
-        <td>EUD</td>
+        <td>EUR</td>
       </tr>
       <tr>
         <td><b>Conference</b></td>
